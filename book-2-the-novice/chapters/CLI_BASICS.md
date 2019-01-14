@@ -29,11 +29,17 @@ Becoming comfortable with your terminal will make you a master of the computer.
 
 ### Aliases
 
-Aliases are useful for accelerating your development workflow. You define aliases in your `.zshrc` file with the `alias` keyword. Let's look at an example.
+Aliases are useful for accelerating your development workflow. First, you need to create a new file called `.bashrc` in your root directory.
+
+```
+touch .bashrc
+```
+
+You'll define aliases in your `.bashrc` file with the `alias` keyword. Let's look at an example.
 
 When working with the Git/Github workflow, there are several commands that you type over, and over, and over again. One of those is `git push origin myBranchName`. It becomes tedious to constantly type `git push origin`. Let's create an alias for it.
 
-Open the `.zshrc` initialization file in your favorite code editor, and enter in the following alias.
+Open the `.bashrc` initialization file in your favorite code editor, and enter in the following alias.
 
 `alias gpo="git push origin "`
 
@@ -41,7 +47,7 @@ Open the `.zshrc` initialization file in your favorite code editor, and enter in
 
 Save the file, and reload your init file with the `source` command.
 
-`source ~/.zshrc`
+`source ~/.bashrc`
 
 The next time you need to push a local branch to Github, you can use this alias to save yourself a lot of typing.
 
@@ -58,7 +64,7 @@ mkdir MyAwesomeApp
 cd MyAwesomeApp
 ```
 
-Let's create a bash function to accelerate that workflow. Open `.zshrc` and enter in the following function.
+Let's create a bash function to accelerate that workflow. Open `.bashrc` and enter in the following function.
 
  ```sh
 mg() {
