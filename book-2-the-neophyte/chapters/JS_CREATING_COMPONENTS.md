@@ -28,9 +28,8 @@ const h1 = (title, style) => {
 Now you can add an `h1` inside the container article that already exists using the `innerHTML` property.
 
 ```js
-document.querySelector("#container").innerHTML = `
-    ${h1("Marcus Fulbright", "xx-large")}
-`
+document.querySelector("#container").innerHTML =
+    h1("Marcus Fulbright", "xx-large")
 ```
 
 Once that code runs, you will have the following DOM.
@@ -70,10 +69,10 @@ const aside = (title, style) => {
 You can then use these functions to create a student component function.
 
 ```js
-const student = (name, class, info) => `
+const createStudentComponent = (name, studentClass, sectionClass, info) => `
     <div id="student">
-        ${h1(name, "xx-large")}
-        ${section(class, "section--padded")}
+        ${h1(name, studentClass, "xx-large")}
+        ${section(sectionClass, "section--padded")}
         ${aside(info, "pushRight")}
     </div>
 `
@@ -211,7 +210,7 @@ const students = [
     ```
 1. Iterate the array of students, and apply the correct style to the `h1` depending on the score of the student being below 60, or above it.
     ```js
-    for (student of students) {
+    for (const student of students) {
         let studentComponent = ""
         if (student.score >= 60) {
             studentComponent = ...
@@ -225,7 +224,7 @@ If a student is passing, then the structure should look like the following.
 
 ```html
 <div class="student">
-    <h1 class="xx-large green">Student Name</h1>
+    <h1 class="xx-large passing">Student Name</h1>
     <section class="bordered dashed section--padded">Student class</section>
     <aside class="pushRight">Additional information</aside>
 </div>
