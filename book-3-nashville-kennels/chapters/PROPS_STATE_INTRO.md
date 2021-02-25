@@ -8,7 +8,7 @@ Pass your name into a component and display it.
 
 > PropsAndState.js
 ```js
-import React, from "react"
+import React from "react"
 
 export const PropsAndState = ({ yourName }) => {
 
@@ -45,7 +45,7 @@ Display this component from the *Kennel* component and pass in your name. Don't 
 
 #### Goal: Display how many times a button has been clicked.
 
-Within the **StateAndProps** component, we will define state and a function to update state with the `useState` hook. We will also create a function `to handleClick`.
+Within the **StateAndProps** component, we will define state and a function to update state with the `useState` hook. We will also create a function to `handleClick`.
 
 > PropsAndState.js - updated
 ```js
