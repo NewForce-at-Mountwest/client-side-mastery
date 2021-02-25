@@ -136,6 +136,7 @@ Update your **`Kennel`** component with the code provided below. Be sure to impo
 
 ```jsx
 import React from "react"
+import "./Kennel.css"
 import { AnimalCard } from "./animal/AnimalCard"
 import "./animal/Animal.css"
 
@@ -143,7 +144,6 @@ export const Kennel = () => (
     <>
         <h2>Nashville Kennels</h2>
         <small>Loving care when you're not there.</small>
-
         <address>
             <div>Visit Us at the Nashville North Location</div>
             <div>500 Puppy Way</div>
@@ -228,7 +228,7 @@ address {
 
 ## Practice
 
-The Nashville Kennel application needs to include locations, owners, and employees. Create static card components for each (`Location.js`, `Customer.js` and `Employee.js`) and a corresponding CSS file.
+The Nashville Kennel application needs to include locations, owners, and employees. Create static card components for each (`LocationCard.js`, `CustomerCard.js` and `EmployeeCard.js`) and a corresponding CSS file.
 
 Remember the Single Responsibility Principle. You should have a component whose sole responsibility is to render the location, or customer, or employee information. Make sure you create a different sub-directory for each kind of resource.
 
