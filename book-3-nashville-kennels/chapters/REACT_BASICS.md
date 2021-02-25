@@ -136,6 +136,7 @@ Update your **`Kennel`** component with the code provided below. Be sure to impo
 
 ```jsx
 import React from "react"
+import "./Kennel.css"
 import { AnimalCard } from "./animal/AnimalCard"
 import "./animal/Animal.css"
 
@@ -143,7 +144,6 @@ export const Kennel = () => (
     <>
         <h2>Nashville Kennels</h2>
         <small>Loving care when you're not there.</small>
-
         <address>
             <div>Visit Us at the Nashville North Location</div>
             <div>500 Puppy Way</div>
