@@ -28,7 +28,7 @@ Open your **`Kennel`** component and place the following code in it. Replace wha
 
 ```js
 import React from "react";
-import { Route, Redirect } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { ApplicationViews } from "./ApplicationViews";
 import { NavBar } from "./nav/NavBar";
 import { Login } from "./auth/Login";
@@ -36,30 +36,27 @@ import { Register } from "./auth/Register";
 import "./Kennel.css";
 
 export const Kennel = () => (
-  <>
-    <Route
-      render={() => {
-        if (localStorage.getItem("kennel_customer")) {
-          return (
-            <>
-              <NavBar />
-              <ApplicationViews />
-            </>
-          );
-        } else {
-          return <Redirect to="/login" />;
-        }
-      }}
+  <Routes>
+    <Route path="/*"
+      element={<Auth />}
     />
-
-    <Route path="/login">
-      <Login />
-    </Route>
-    <Route path="/register">
-      <Register />
-    </Route>
-  </>
+    <Route path="/login" element={<Login />} />
+    <Route path="/register" element={<Register />} />
+  </Routes>
 );
+
+const Auth = () => {
+  if (localStorage.getItem("kennel_customer")) {
+    return (
+      <>
+        <NavBar />
+        <ApplicationViews />
+      </>
+    );
+  } else {
+    return <Navigate to="/login" />;
+  }
+}
 ```
 
 ## Installing Authentication Components
@@ -70,7 +67,7 @@ Now you can install the mock authentication components into your application.
 1. Run the following command in that directory.
 
     ```sh
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nashville-software-school/client-side-mastery/master/book-4-nashville-kennels/chapters/scripts/auth.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/NewForce-at-Mountwest/client-side-mastery/master/book-3-nashville-kennels/chapters/scripts/auth.sh)"
     ```
 1. Go to Visual Studio Code and you will see a new `src/components/auth` directory with 4 new files in it.
    1. `Register.js`
@@ -78,7 +75,6 @@ Now you can install the mock authentication components into your application.
    1. `Login.css`
    1. `logo.png`
 
-**Check for react-router-dom useHistory()** You may need to import the `useHistory` into your Login and Register components and then invoke it.
 
 ## Register an Account
 
