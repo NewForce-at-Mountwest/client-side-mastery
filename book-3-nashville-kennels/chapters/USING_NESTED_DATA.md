@@ -52,20 +52,6 @@ The response for an animal will include objects for the location and customer in
 
 The server (API) did the work for you!!
 
-Add the new method to your return at the bottom of `AnimalProvider`.
-
-```js
-return (
-    <AnimalContext.Provider value={
-      {
-        animals, addAnimal, getAnimals, getAnimalById
-      }
-    }>
-      {props.children}
-    </AnimalContext.Provider>
-  )
-```
-
 ## AnimalCard inside of AnimalList Refactor
 
 Change the AnimalCard to display animal names, as hyperlinks. When you click on one animal name, an animal detail component will render.
