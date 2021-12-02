@@ -3,20 +3,18 @@ set -u
 
 mkdir -p ./src/components/auth && cd $_
 
-echo 'import React, { useRef } from "react"
-import { useHistory } from "react-router-dom"
+echo 'import React, { useRef, useState } from "react"
+import { useNavigate } from "react-router-dom"
 import "./Login.css"
 
 export const Register = (props) => {
-    const firstName = useRef()
-    const lastName = useRef()
-    const email = useRef()
-    const verifyPassword = useRef()
+    const [customer, setCustomer] = useState({})
     const conflictDialog = useRef()
-    const history = useHistory()
+
+    const navigate = useNavigate()
 
     const existingUserCheck = () => {
-        return fetch(`http://localhost:8088/customers?email=${email.current.value}`)
+        return fetch(`http://localhost:8088/customers?email=${customer.email}`)
             .then(res => res.json())
             .then(user => !!user.length)
     }
@@ -33,16 +31,13 @@ export const Register = (props) => {
                         headers: {
                             "Content-Type": "application/json"
                         },
-                        body: JSON.stringify({
-                            email: email.current.value,
-                            name: `${firstName.current.value} ${lastName.current.value}`
-                        })
+                        body: JSON.stringify(customer)
                     })
                         .then(res => res.json())
                         .then(createdUser => {
                             if (createdUser.hasOwnProperty("id")) {
                                 localStorage.setItem("kennel_customer", createdUser.id)
-                                history.push("/")
+                                navigate("/")
                             }
                         })
                 }
@@ -53,30 +48,37 @@ export const Register = (props) => {
         
     }
 
+    const updateCustomer = (evt) => {
+        const copy = {...customer}
+        copy[evt.target.id] = evt.target.value
+        setCustomer(copy)
+    }
+
     return (
         <main style={{ textAlign: "center" }}>
-
             <dialog className="dialog dialog--password" ref={conflictDialog}>
                 <div>Account with that email address already exists</div>
                 <button className="button--close" onClick={e => conflictDialog.current.close()}>Close</button>
             </dialog>
 
             <form className="form--login" onSubmit={handleRegister}>
-                <h1 className="h3 mb-3 font-weight-normal">Please Register for NSS Kennels</h1>
+                <h1 className="h3 mb-3 font-weight-normal">Please Register for NewForce Kennels</h1>
                 <fieldset>
-                    <label htmlFor="firstName"> First Name </label>
-                    <input ref={firstName} type="text" name="firstName" className="form-control" placeholder="First name" required autoFocus />
+                    <label htmlFor="name"> Full Name </label>
+                    <input onChange={updateCustomer}
+                           type="text" id="name" className="form-control"
+                           placeholder="Enter your name" required autoFocus />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="lastName"> Last Name </label>
-                    <input ref={lastName} type="text" name="lastName" className="form-control" placeholder="Last name" required />
+                    <label htmlFor="address"> Address </label>
+                    <input onChange={updateCustomer} type="text" id="address" className="form-control" placeholder="Street address" required />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="inputEmail"> Email address </label>
-                    <input ref={email} type="email" name="email" className="form-control" placeholder="Email address" required />
+                    <label htmlFor="email"> Email address </label>
+                    <input onChange={updateCustomer} type="email" id="email" className="form-control" placeholder="Email address" required />
                 </fieldset>
                 <fieldset>
-                    <button type="submit"> Sign in </button>
+                    <button type="submit"> Register </button>
                 </fieldset>
             </form>
         </main>
@@ -84,32 +86,29 @@ export const Register = (props) => {
 }
 ' > ./Register.js
 
-echo 'import React, { useRef } from "react"
+echo 'import React, { useRef, useState } from "react"
 import { Link } from "react-router-dom";
-import { useHistory } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import "./Login.css"
 
-
-export const Login = props => {
-    const email = useRef()
-    const password = useRef()
+export const Login = () => {
+    const [email, set] = useState("")
     const existDialog = useRef()
-    const history = useHistory()
+    const navigate = useNavigate()
 
     const existingUserCheck = () => {
-        return fetch(`http://localhost:8088/customers?email=${email.current.value}`)
+        return fetch(`http://localhost:8088/customers?email=${email}`)
             .then(res => res.json())
             .then(user => user.length ? user[0] : false)
     }
 
     const handleLogin = (e) => {
         e.preventDefault()
-
         existingUserCheck()
             .then(exists => {
                 if (exists) {
                     localStorage.setItem("kennel_customer", exists.id)
-                    history.push("/")
+                    navigate("/")
                 } else {
                     existDialog.current.showModal()
                 }
@@ -125,12 +124,12 @@ export const Login = props => {
 
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Nashville Kennels</h1>
+                    <h1>NewForce Kennels</h1>
                     <h2>Please sign in</h2>
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>
-                        <input ref={email} type="email"
-                            id="email"
+                        <input type="email"
+                            onChange={evt => set(evt.target.value)}
                             className="form-control"
                             placeholder="Email address"
                             required autoFocus />
@@ -220,4 +219,4 @@ fieldset {
 }
 ' > ./Login.css
 
-curl https://raw.githubusercontent.com/nashville-software-school/client-side-mastery/master/book-4-nashville-kennels/chapters/images/logo.png > logo.png
+curl https://raw.githubusercontent.com/NewForce-at-Mountwest/client-side-mastery/master/book-3-nashville-kennels/chapters/images/logo.png > logo.png
