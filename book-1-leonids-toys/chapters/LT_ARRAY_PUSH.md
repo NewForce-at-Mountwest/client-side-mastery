@@ -1,4 +1,5 @@
-# Adding New Objects to Arrays
+# 6. New Toys
+## Adding New Objects to Arrays
 
 In this chapter you will learn about the `push()` method that is available on every array which allows you to add things to the array.
 

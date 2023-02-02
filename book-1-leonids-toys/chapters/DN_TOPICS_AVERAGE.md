@@ -1,4 +1,4 @@
-# Average Number of Topics
+# 6. Average Topics per Note
 
 ## Instructions
 
