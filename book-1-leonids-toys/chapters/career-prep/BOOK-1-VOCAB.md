@@ -1,4 +1,4 @@
-# Vocabulary Review
+# 9. Vocabulary Review
 
 Knowing how to talk about what you've learned is hard, especially at this stage! It's okay if the vocabulary still feels fuzzy. 
 

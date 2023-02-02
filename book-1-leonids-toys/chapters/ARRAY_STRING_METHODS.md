@@ -1,4 +1,6 @@
-## Strings into Arrays into Strings
+# 9. Array and String Methods
+
+## Converting Strings and Arrays
 
 Now that you have worked with arrays and strings in various contexts, this chapter will cover how to convert strings into arrays, and vice versa.
 

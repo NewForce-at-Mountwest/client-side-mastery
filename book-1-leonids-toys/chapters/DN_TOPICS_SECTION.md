@@ -1,4 +1,4 @@
-# Note Topic Sections
+# 9. Note Topic Sections
 
 Now you need to create some `<section>` HTML elements for each note article.
 
