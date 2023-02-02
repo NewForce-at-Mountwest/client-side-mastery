@@ -1,3 +1,4 @@
+# 2. Array Item Index
 ## Position of Items in an Array
 
 As mentioned in the introduction, the most common type of collection in JavaScript is the array. An array can be identified by use of square brackets. The [ and the ] characters define an array. Here's a simple definition of an array. Think of it as an empty basket. Nothing is in it yet.

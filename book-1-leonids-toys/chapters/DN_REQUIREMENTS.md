@@ -1,6 +1,10 @@
-# Daily Notes Project
+# 2. Project Requirements and Algorithm
 
-## Algorithm
+In this chapter, you will learn how to write out algorithmic steps and we'll be starting a new project, Daily Notes.
+
+## Algorithms
+
+An algorithm is a set of well-defined steps for solving a problem or achieving a specific task.
 
 The most important part of this project is that you write your algorithms out in comments before you code. Starting this practice right now will have a significantly positive impact on your ability to understand what code you need to write.
 
