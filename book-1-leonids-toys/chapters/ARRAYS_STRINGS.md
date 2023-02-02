@@ -1,4 +1,5 @@
-# A String Within a String
+# 8. Building Strings with Iteration
+## A String Within a String
 
 In this exercise, you will use a `for..of` loop and conditional logic with `if/else` blocks again. You will also use a new tool to find a smaller string value within a bigger string value. You will also use the logical OR operator `||`, which is similar to the logical AND operator `&&` you have used in previous exercises.
 
