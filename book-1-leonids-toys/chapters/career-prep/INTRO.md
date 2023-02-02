@@ -1,4 +1,5 @@
-# What to Expect from NewForce Career Prep
+# 1. Intro to Career Prep
+## What to Expect from NewForce Career Prep
 
 At NewForce, we care a lot about three main things:
 

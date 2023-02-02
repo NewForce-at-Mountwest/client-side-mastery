@@ -1,6 +1,9 @@
-## Arrays (a.k.a. collections of things)
+# 1. All About Arrays
+An array is a data structure that stores a collection of things of the same type.
 
-In software, values don't only have to be assigned individually to variables.
+## A collection of things
+
+In software, values don't only have to be assigned individually to variables. 
 
 ```js
 const flower1 = "Tulip"
