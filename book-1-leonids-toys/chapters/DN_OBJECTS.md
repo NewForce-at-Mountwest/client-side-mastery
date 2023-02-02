@@ -1,4 +1,4 @@
-# Adding More Notes
+# 3. Note Objects and Array
 
 In the last chapter, you had an algorithm that defined the code you needed to write before you wrote any code.
 

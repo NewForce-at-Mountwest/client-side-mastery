@@ -1,4 +1,4 @@
-## Adding Items to an Array
+# 3. Adding to Arrays
 
 In this chapter, you will learn how how to add items to an array.
 
