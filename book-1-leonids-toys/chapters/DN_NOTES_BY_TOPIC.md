@@ -1,4 +1,4 @@
-# Notes by Topic
+# 7. List of Notes by Topic
 
 A common task that software developers need to do is filter data by some criteria. You may have an array filled with thousands of objects, but you want to display a subset of those objects to your customers.
 

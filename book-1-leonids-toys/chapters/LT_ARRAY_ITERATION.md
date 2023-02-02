@@ -1,4 +1,6 @@
-# Displaying the Toy Catalog
+# 7. Toy Catalog
+
+In this chapter, we will be displaying our toy catalog as output in our console.
 
 ## String Interpolation
 
