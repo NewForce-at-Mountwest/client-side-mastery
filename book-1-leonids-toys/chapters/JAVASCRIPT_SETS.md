@@ -1,4 +1,4 @@
-# JavaScript Sets
+# 2. Data Structure: Sets
 
 A `Set()` is another type of container like an array. It can group things together, and can be iterated. However, unlike an array, a Set contains unique items.
 
