@@ -1,4 +1,4 @@
-# Note Articles
+# 8. HTML Note Articles
 
 In preparation for when you are going to be contructing HTML representations of your data to be displayed in a web browser, you are going to be constructing some strings in this chapter that contain the `<article>` element, with the text from each note contained _(interpolated)_ inside it.
 

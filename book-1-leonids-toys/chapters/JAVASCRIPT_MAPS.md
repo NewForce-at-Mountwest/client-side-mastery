@@ -1,4 +1,4 @@
-# Maps
+# 1. Data Structure: Map
 
 A `Map` in JavaScript is very similar to an `Object`, but it has some very powerful differences.
 

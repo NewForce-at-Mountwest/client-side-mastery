@@ -1,4 +1,4 @@
-# Traveling Salesperson
+# 6. Practice: Calculating Average
 
 ## Instructions
 

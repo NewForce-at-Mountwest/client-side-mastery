@@ -1,3 +1,4 @@
+# 5. Array Length
 ## Using the Length of an Array
 
 Arrays have a `.length` property that tells you how many items are in the array.

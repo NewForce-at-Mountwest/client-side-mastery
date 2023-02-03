@@ -1,4 +1,4 @@
-## Fast Food
+## 4. Arrays and Conditions
 
 If you have ever had the pleasure of working in a fast food restaurant, you remember how important automation and repitition is. There is very little variation to the food offerings, and there are machines and processes set up to ensure that each product is produced in the same amount of time, with the exact same quantity of ingredients, in the exact same amount of time.
 

@@ -1,4 +1,4 @@
-# Personal Profiles
+# 8. Writing Your Personal Profile
 
 Your personal profile will give employers the lens through which they'll read the rest of your resume. Think of it like the back cover summary on a book! For your tech resume, you'll want to focus on connecting your origin story (aka what you did before NewForce) to your decision to become a developer. What led you here? Recruiters want to know!
 

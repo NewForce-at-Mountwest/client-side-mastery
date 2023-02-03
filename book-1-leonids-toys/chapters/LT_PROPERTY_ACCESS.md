@@ -1,4 +1,4 @@
-# Display Toy Properties
+# 5. Displaying Toy Properties
 
 ## Learning Objectives
 

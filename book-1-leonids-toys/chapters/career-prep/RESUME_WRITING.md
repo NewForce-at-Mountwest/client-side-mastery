@@ -1,4 +1,6 @@
-# Tech Resume Overview
+# 6. Getting Started on Your Resume
+
+## Tech Resume Overview
 
 We're going to start out by getting started on your tech resume! Tech resumes include all of the same things as an average resume, plus a little extra. The focus of a tech resume is to highlight the software development skills you’ve gained through your technical experience. It’s also important to highlight previous work because most of your past experiences will be transferable to a tech career! 
 
