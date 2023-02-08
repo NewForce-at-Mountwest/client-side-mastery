@@ -15,16 +15,6 @@ In this book, you will develop your most important skill as a developer - debugg
 | 7 | [Taco Soup](./chapters/TACO_SOUP.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #practice</sub> | [Paying Tribute](./chapters/QUEEN_TRIBUTE.md) <br/> <sub style="font-size:0.85rem;">#functions #arrays #objects</sub> |  |
 | 8 | | [Show Tribute By Queen](./chapters/QUEEN_QUEEN_TRIBUTE.md) <br/> <sub style="font-size:0.85rem;">#debugger</sub> |
 
-## 🧭 Explorer Chapters
-
-These **optional** chapters are for learners who want to explore more advanced concepts beyond the core material.
-
-| # | 👸🏽 Her Majesty, The Queen |
-|--|--|
-| 1 | [Modular Majesty](./chapters/QUEEN_EC_MODULAR.md) |
-| 2 | [Finding Tribute](./chapters/QUEEN_EC_ARRAY_FIND.md) |
-| 3 | [Combined Data](./chapters/QUEEN_EC_DATABASE.md) |
-
 
 ## 🏕 Pioneer Chapters
 
