@@ -4,16 +4,16 @@ In this book, you will develop your most important skill as a developer - debugg
 
 ## Chapters
 
-| #   |  :taco: <br/> Fundamentals <br/><sub>(_Start Here_)</sub> | 👸🏽 <br/> Her Majesty, The Queen <br/><sub>(_Guided Tour_)</sub> | | |
-| --- | --- | --- | --- | --- |
-| 1   | [Introduction to Variables](./chapters/VARIABLEs_INTRO_TACO.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #variables</sub> |  [Introduction to Functions](./chapters/QUEEN_INTRO.md) <br/> <sub style="font-size:0.85rem;">#functions</sub>|| 
-| 2 | [All About Arrays](./chapters/ARRAYS_INTRO) <br/> <sub style="font-size:0.85rem;">#fundamentals #arrays</sub> | [Her Majesty Function](./chapters/QUEEN_HAIL.md) <br/> <sub style="font-size:0.85rem;">#functions</sub> | |
-| 3 | [Objects](./chapters/OBJECTS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #objects</sub> | [Watching Your Code Run](./chapters/QUEEN_DEBUGGER.md) <br/> <sub style="font-size:0.85rem;">#debugger</sub> |  | 
-| 4 | [Git](./chapters/GIT_BASICS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #git</sub> | [Bug Queen](./chapters/QUEEN_ERRORS.md) <br/> <sub style="font-size:0.85rem;">#errors</sub> | | |
-| 5 | [Loops](./chapters/LOOPS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #loops</sub> | [Queen Colony](./chapters/QUEEN_COLLECTION.md) <br/> <sub style="font-size:0.85rem;">#functions #arrays #objects #parameters</sub> | | 
-| 6 | [Conditionals](./chapters/CONDITIONALS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #conditionals</sub> | [Iterating the Queens](./chapters/QUEEN_ITERATION.md) <br/> <sub style="font-size:0.85rem;">#iteration</sub> |  |  
+| #   |  :taco: <br/> Fundamentals <br/><sub>(_Start Here_)</sub> | 👸🏽 <br/> Her Majesty, The Queen <br/><sub>(_Guided Tour_)</sub> |
+| --- | --- | --- |
+| 1   | [Introduction to Variables](./chapters/VARIABLEs_INTRO_TACO.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #variables</sub> |  [Introduction to Functions](./chapters/QUEEN_INTRO.md) <br/> <sub style="font-size:0.85rem;">#functions</sub>|
+| 2 | [All About Arrays](./chapters/ARRAYS_INTRO) <br/> <sub style="font-size:0.85rem;">#fundamentals #arrays</sub> | [Her Majesty Function](./chapters/QUEEN_HAIL.md) <br/> <sub style="font-size:0.85rem;">#functions</sub> |
+| 3 | [Objects](./chapters/OBJECTS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #objects</sub> | [Watching Your Code Run](./chapters/QUEEN_DEBUGGER.md) <br/> <sub style="font-size:0.85rem;">#debugger</sub> |
+| 4 | [Git](./chapters/GIT_BASICS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #git</sub> | [Bug Queen](./chapters/QUEEN_ERRORS.md) <br/> <sub style="font-size:0.85rem;">#errors</sub> |
+| 5 | [Loops](./chapters/LOOPS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #loops</sub> | [Queen Colony](./chapters/QUEEN_COLLECTION.md) <br/> <sub style="font-size:0.85rem;">#functions #arrays #objects #parameters</sub> |
+| 6 | [Conditionals](./chapters/CONDITIONALS.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #conditionals</sub> | [Iterating the Queens](./chapters/QUEEN_ITERATION.md) <br/> <sub style="font-size:0.85rem;">#iteration</sub> |
 | 7 | [Taco Soup](./chapters/TACO_SOUP.md) <br/> <sub style="font-size:0.85rem;">#fundamentals #practice</sub> | [Paying Tribute](./chapters/QUEEN_TRIBUTE.md) <br/> <sub style="font-size:0.85rem;">#functions #arrays #objects</sub> |  |
-| 8 | | [Show Tribute By Queen](./chapters/QUEEN_QUEEN_TRIBUTE.md) <br/> <sub style="font-size:0.85rem;">#debugger</sub> |  |  |
+| 8 | | [Show Tribute By Queen](./chapters/QUEEN_QUEEN_TRIBUTE.md) <br/> <sub style="font-size:0.85rem;">#debugger</sub> |
 
 ## 🧭 Explorer Chapters
 
