@@ -15,21 +15,20 @@ Here's how that looks
 ### Part 1
 | # | 🍯 💻 Honey Rae's Repairs | 💡💬 Learning Moments |
 |--|--|--|
-| 1 | [Getting Started with React](./chapters/REACT_BASICS.md) | [Learning Setup](./chapters/LEARN_SETUP.md) |
-| 2 | [Your First Component](./chapters/REPAIR_FIRST_COMPONENT.md) <br/> <sub style="font-size:0.85rem;">#jsx #useState</sub>| [MVP and Wireframe](./chapters/LEARN_WIREFRAME.md) |
-| 3 | [Repair API](./chapters/REPAIR_API.md) <br/> <sub style="font-size:0.85rem;">#api #json</sub> | [All Posts](./chapters/LEARN_ALL_POSTS.md) |
-| 4 | [Repair Wireframe](./chapters/REPAIR_WIREFRAME.md) <br/> <sub style="font-size:0.85rem;">#wireframe #project-planning</sub> | [Filter Posts](./chapters/LEARN_FILTER.md) |
+| 1 | [Getting Started with React](./chapters/REACT_BASICS.md) |
+| 2 | [Your First Component](./chapters/REPAIR_FIRST_COMPONENT.md) <br/> <sub style="font-size:0.85rem;">#jsx #useState</sub>|  
+| 3 | [Repair API](./chapters/REPAIR_API.md) <br/> <sub style="font-size:0.85rem;">#api #json</sub> | 
+| 4 | [Repair Wireframe](./chapters/REPAIR_WIREFRAME.md) <br/> <sub style="font-size:0.85rem;">#wireframe #project-planning</sub> | 
 | 5 | [List All Tickets](./chapters/REPAIR_ALL_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#useEffect #fetch</sub> |
 
-**🧨 STOP HERE AND COMPLETE ALL PROJECTS UP TO CHAPTER 5**
 
 ### Part 2
 | # | 🍯 💻 Honey Rae's Repairs | |
 |--|--|--|
-| 6 | [Ticket Assignee](./chapters/REPAIR_TICKET_ASSIGNEE.md) <br/> <sub style="font-size:0.85rem;">#props #optional-chaining #ternary</sub> |
-| 7 | [Search Tickets](./chapters/REPAIR_SEARCH_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#props #dependency-array</sub> |
-| 8 | [Customer List](./chapters/REPAIR_CUSTOMER_LIST.md) <br/> <sub style="font-size:0.85rem;">#review</sub> |
-| 9 | [Employee List](./chapters/REPAIR_EMPLOYEE_LIST.md) <br/> <sub style="font-size:0.85rem;">#practice</sub> |
+| 6 | [Ticket Assignee](./chapters/REPAIR_TICKET_ASSIGNEE.md) <br/> <sub style="font-size:0.85rem;">#props #optional-chaining #ternary</sub> | [Learning Setup](./chapters/LEARN_SETUP.md) |
+| 7 | [Search Tickets](./chapters/REPAIR_SEARCH_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#props #dependency-array</sub> | [MVP and Wireframe](./chapters/LEARN_WIREFRAME.md) |
+| 8 | [Customer List](./chapters/REPAIR_CUSTOMER_LIST.md) <br/> <sub style="font-size:0.85rem;">#review</sub> | [All Posts](./chapters/LEARN_ALL_POSTS.md) |
+| 9 | [Employee List](./chapters/REPAIR_EMPLOYEE_LIST.md) <br/> <sub style="font-size:0.85rem;">#practice</sub> | [Filter Posts](./chapters/LEARN_FILTER.md) |
 
 
 ### Part 3
@@ -40,8 +39,6 @@ Here's how that looks
 | 12 | [Claim vs Close](./chapters/REPAIR_CLAIM_VS_CLOSE.md) <br/> <sub style="font-size:0.85rem;">#auth-setup #prop-drilling #put</sub> | [New Post](./chapters/LEARN_CREATE.md) |
 | 13 | [Employee Edit](./chapters/REPAIR_EMPLOYEE_EDIT.md) <br/> <sub style="font-size:0.85rem;">#useNavigate #forms #put</sub> | [My Posts](./chapters/LEARN_MY_POSTS.md) |
 
-**🧨 STOP HERE AND COMPLETE ALL PROJECTS UP TO CHAPTER 13**
-
 ### Part 4
 | # | 🍯 💻 Honey Rae's Repairs | 💡💬 Learning Moments |
 |--|--|--|
@@ -49,7 +46,7 @@ Here's how that looks
 | 15 | [Customer Tickets](./chapters/REPAIR_CUSTOMER_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#conditional-rendering #filter #delete</sub> | [Favorites](./chapters/LEARN_FAVORITES.md) |
 | 16 | [Create Ticket](./chapters/REPAIR_CREATE_TICKET.md) <br/> <sub style="font-size:0.85rem;">#forms #post</sub> | [User Profile](./chapters/LEARN_VIEW_PROFILE.md) |
 | 17 | Edit Ticket <br/> <sub style="font-size:0.85rem;">#forms #put</sub> | [Edit Profile](./chapters/LEARN_EDIT_PROFILE.md) |
-| 17 | Edit Profile <br/> <sub style="font-size:0.85rem;">#forms #put</sub> |  |
+| 17 | Edit Profile <br/> <sub style="font-size:0.85rem;">#forms #put</sub> |  
 
 ### Part 5
 | # | 😂🗒 Chuckle Checklist | |
