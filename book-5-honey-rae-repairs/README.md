@@ -13,17 +13,17 @@ Here's how that looks
 
 ## Core Projects
 ### Part 1
-| # | 🍯 💻 Honey Rae's Repairs | 💡💬 Learning Moments |
-|--|--|--|
+| # | 🍯 💻 Honey Rae's Repairs |
+|--|--|
 | 1 | [Getting Started with React](./chapters/REACT_BASICS.md) |
-| 2 | [Your First Component](./chapters/REPAIR_FIRST_COMPONENT.md) <br/> <sub style="font-size:0.85rem;">#jsx #useState</sub>|  
+| 2 | [Your First Component](./chapters/REPAIR_FIRST_COMPONENT.md) <br/> <sub style="font-size:0.85rem;">#jsx #useState</sub> |  
 | 3 | [Repair API](./chapters/REPAIR_API.md) <br/> <sub style="font-size:0.85rem;">#api #json</sub> | 
 | 4 | [Repair Wireframe](./chapters/REPAIR_WIREFRAME.md) <br/> <sub style="font-size:0.85rem;">#wireframe #project-planning</sub> | 
 | 5 | [List All Tickets](./chapters/REPAIR_ALL_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#useEffect #fetch</sub> |
 
 
 ### Part 2
-| # | 🍯 💻 Honey Rae's Repairs | |
+| # | 🍯 💻 Honey Rae's Repairs | 💡💬 Learning Moments |
 |--|--|--|
 | 6 | [Ticket Assignee](./chapters/REPAIR_TICKET_ASSIGNEE.md) <br/> <sub style="font-size:0.85rem;">#props #optional-chaining #ternary</sub> | [Learning Setup](./chapters/LEARN_SETUP.md) |
 | 7 | [Search Tickets](./chapters/REPAIR_SEARCH_TICKETS.md) <br/> <sub style="font-size:0.85rem;">#props #dependency-array</sub> | [MVP and Wireframe](./chapters/LEARN_WIREFRAME.md) |
@@ -49,8 +49,8 @@ Here's how that looks
 | 17 | Edit Profile <br/> <sub style="font-size:0.85rem;">#forms #put</sub> |  
 
 ### Part 5
-| # | 😂🗒 Chuckle Checklist | |
-|--|--|--|
+| # | 😂🗒 Chuckle Checklist |
+|--|--|
 | 1 | [Chuckle Setup](./chapters/CHUCKLE_SETUP.md) |
 | 2 | [New Chuckles](./chapters/CHUCKLE_CREATE.md) |
 | 3 | [View Chuckles](./chapters/CHUCKLE_READ.md) |
