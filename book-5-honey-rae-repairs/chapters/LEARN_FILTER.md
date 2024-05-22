@@ -12,4 +12,3 @@ In this chapter you will implement the following user stories for the ***[All Po
 
 ## It's all you! You've got this 😎
 
-Up Next: [Learning Routes with Honey Rae's](./REPAIR_ROUTES_INTRO.md)
